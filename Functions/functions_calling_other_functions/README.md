@@ -22,3 +22,5 @@ function <functionName>{
     <function body>
     return <output> ==> any statements after this will never executed. 
 }
+
+Arguments are passing values to function parameters
