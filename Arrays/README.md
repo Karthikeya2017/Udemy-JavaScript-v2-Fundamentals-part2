@@ -36,3 +36,10 @@ Arrays are Non premitive data types, we can mutate/change Non primitive data typ
 - Primitives are stored by value while Non-Primitives (Objects) are stored by reference.
 
 - JavaScript expects each positon as  'expression'
+
+> const arr = ['gopi', 34, ['Karthikeya', 'NagaLakshmi']]
+undefined
+> arr[arr.length -1].length -1
+1
+> (arr[arr.length -1]).length
+2
