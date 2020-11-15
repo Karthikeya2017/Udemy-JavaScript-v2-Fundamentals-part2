@@ -24,3 +24,4 @@ function <functionName>{
 }
 
 Arguments are passing values to function parameters
+Async/Await => https://medium.com/javascript-in-plain-english/async-await-javascript-5038668ec6eb
