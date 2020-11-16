@@ -22,4 +22,8 @@ to get values from Object ==> . OR []
 [ ] ==> computed 
 
 *** Important ***
-Object returns undefined when Key doesn't exists in Object.
+1. Object returns undefined when Key doesn't exists in Object.
+2. Functions are nothing but values. Hence we cab use them in Objects. 
+
+This keyword looks who is  calling this method (OR) on which method/Object it is called.
+"this"keyword more explanation - https://medium.com/weekly-webtips/javascript-understanding-this-2b112a9afd95
