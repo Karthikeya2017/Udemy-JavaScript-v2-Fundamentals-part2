@@ -1,0 +1,1 @@
+if we don't know how many iterations to loop, then we can use while loop.
