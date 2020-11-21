@@ -11,7 +11,8 @@ const totalAmount = [ ];
 
 const calcTipsAndTotal = (billsArray) => {
     billsArray.forEach(bill => {
-        const tip = (50 < bill < 200)? bill * 0.20: bill * 0.10;
+        // const tip = (50 < bill < 200)? bill * 0.20: bill * 0.10; => this is not working in JS, strange :(
+        const tip = ((50 < bill)  && (bill< 200))? bill * 0.20: bill * 0.10;
         total = bill + tip;
         tips.push(tip);
         totalAmount.push(total);
@@ -30,4 +31,5 @@ const calcAvgTotals = (totalArray) => {
     return sum / totalArray.length
 }
 calcTipsAndTotal(bills);
+console.log(totalAmount);
 console.log(calcAvgTotals(totalAmount)) ;
