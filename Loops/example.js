@@ -18,6 +18,16 @@ const calcTipsAndTotal = (billsArray) => {
     });
 }
 
+const calcAvgTotals = (totalArray) => {
+    const sum = totalArray.reduce((acc, value ) => 
+        acc + value
+    )
+    console.log(sum);
+    // let sum = 0;
+    // totalArray.forEach(amount => {
+    //     sum += amount
+    // })
+    return sum / totalArray.length
+}
 calcTipsAndTotal(bills);
-console.log(totalAmount);
-console.log(tips);
+console.log(calcAvgTotals(totalAmount)) ;
